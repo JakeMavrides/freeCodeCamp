@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+p {
+  text-align: center;
+  margin-top: 0;
+}
+.name, .email, .age {
+  margin-right: 10;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.age, email {
+  margin-top: 10;
+}
+.input {
+  text-align: center;
+  margin-top: 30px;
+}
+.dropdown {
+  text-align: center;
+  padding-bottom:20;
+}
+.rads {
+  text-align: center;
+}
+fieldset {
+  padding-top: 10;
+  margin-bottom: 10;
+  padding-bottom: 10;
+}
+textarea{
+  font-size: 18;
+}
+.submit {
+  text-align:center;
+}
+input[type="submit"] {
+  font-size: 18;
+  min-width: 300;
+  min-height: 40;
+}

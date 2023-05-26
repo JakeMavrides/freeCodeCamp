@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<h1 id="title">Survey Form</h1>
+<p id="description">Take this survey please!~</p>
+
+<form id="survey-form" method="post"> 
+<div class="input">
+    <label id="name-label">Name</label>
+<input id="name" class="name" name="name" type="text" placeholder="First and Last name" required> </input>
+</div>
+
+<div class="input">
+<label id="email-label">Email</label>
+<input id="email" class="email" name="email" type="email" placeholder="Enter your email" required></input>
+</div>
+
+
+<div class="age">
+<label id="number-label">Age (optional)</label>
+<input id="number" class="age" name="age" type="number" placeholder="Age" min="10" max="120"></input>
+</div>
+
+<div class="dropdown">
+<label for="dropdown">Which do you prefer?</label>
+<select id="dropdown" name="dropdown">
+<option value="">(select one)</option>
+<option value="front end">Front end</option>
+<option value="back end">Back end</option>
+<option value="back end">Full-stack</option>
+</select>
+</div>
+
+<fieldset>
+<div class="rads">
+<label for="rad">Do you like apples?</label>
+<input name="rad" type="radio" value="Yes">Yes</input>
+<input type="radio" name="rad" value="No">No</input>
+</div>
+</fieldset>
+
+<fieldset>
+Which colors do you like?
+<label for="colors">Blue</label>
+<input type="checkbox" value="Blue" name="colors"></input>
+<label for="colors">Red</label>
+<input type="checkbox" value="Red" name="colors"></input>
+<label for="colors">Green</label>
+<input type="checkbox" value="Green" name="colors"></input>
+<label for="colors">Yellow</label>
+<input type="checkbox" value="Yellow"name="colors"></input>
+</fieldset>
+
+<fieldset>
+    <textarea id="comments" rows="3" cols="40" placeholder="Any comments?"></textarea>
+</fieldset>
+
+<div class="submit">
+<input id="submit" type="submit" value="Submit"></input>
+</div>
+</form>
+
+</body>
+</html>
