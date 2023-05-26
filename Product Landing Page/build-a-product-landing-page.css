@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+html {
+  font-size: 18px;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  background-color: linen;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  width: 60%;
+  min-width: 200px;
+  max-width: 300px;
+  min-height: 55px;
+  max-height: 100px;
+  padding-top: 10px;
+}
+header {
+  position: fixed;
+  top: 0;
+}
+nav {
+  float: right;
+  right: 5px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin: 0;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10;
+  margin: 0;
+}
+li {
+  padding: 1rem;
+  margin: 0 0 5px 5px;
+  list-style-type: none;
+}
+.subtitle {
+  padding: 20px 20px 0px 0px;
+  text-align: center;
+  font-size: 1.25rem;
+  padding-bottom: 15px;
+}
+.get-started {
+  font-size: 1.2rem;
+  padding-top: 75px;
+  padding-bottom: 15px;
+  text-align: center;
+  border: 1px solid gray;
+}
+.paragraph-text {
+  padding: 0px 20px 0px 20px;
+}
+.item {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+}
+.price-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.item-description {
+  padding-top: 10px;
+  text-align: center;
+  letter-spacing: .8px;
+  word-spacing: 3px;
+  line-height: 30px;
+}
+.money {
+  text-align: center;
+}
+#Features {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.75rem;
+}
+#submit-div {
+  padding-top: 10px;
+}
+#email {
+  margin-top: 10px;
+  font-size: 1rem;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+#submit {
+  padding: 6px 8px 6px 8px;
+  background-color: #f1c449;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid gray;
+}
+#How_It_Works {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+#Pricing {
+  display: flex;
+  padding: 30px 20px 30px 20px;
+}
+#video {
+  width: 60%;
+}
